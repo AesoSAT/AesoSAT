@@ -1,0 +1,9 @@
+- Treure els vídeos del índex dels 4 presentant-nos i posar-los a /equip/, deixant només el vídeo gran de tots (ja hi ha una secció a la part de )
+- Treure "About" i canviar-ho per Events (fotos i vídeos fets, com el de la fira del bolet, la fira del codony, algun carrussel d'imatges, etc...)
+- Arreglar css (mirar estils repetits)
+- Arreglar html (hi han div_containers innecessàris)
+- Com a cosa final, fer que les dades es puguin veure a la web (fer la web amb node+root, no amb root)
+- Arreglar colors "Missions"
+- Arreglar videos "Activitats"
+- Afegir més fotos i fer videos "Activitats"
+- 
