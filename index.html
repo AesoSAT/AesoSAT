@@ -3,6 +3,9 @@
     <head>
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
         <title>AesoSAT - Inici</title>
     </head>
     <body>
@@ -25,7 +28,7 @@
                 <img src="../img/aesosat_logo.png" alt="AesoSAT" class="logo">
                 <h1 class="title">AesoSAT</h1>
                 <h3 class="slogan">El projecte que participarà en el concurs de talla europea CanSAT</h3>
-                <button class="help">AJUDA'NS!</button>
+                <button class="help" onclick="window.location.href = `/content/contact`">AJUDA'NS!</button>
             </div>
         </header>
         <main>
@@ -42,7 +45,6 @@
             </section>
             <section class="missions">
                 <h2 class="missions_title">El nostre projecte</h2>
-                <p class="missions_zone_text">Cada equip té dues missions: la missió primària i la secundària.</p>
                 <div class="missions_zone">
                     <div class="missions_zone_section">
                         <h3 class="missions_zone_title">La missió primària</h3>
@@ -61,30 +63,7 @@
                 </div>
             </section>
             <section class="videos">
-                <video src="" class="videos_videobig"></video>
-                <!-- Fer que el vídeo sigui més petit i que es fagi gran (pantalla completa) quan l'obres -->
-                <div class="videos_videos">
-                    <div class="videos_container">
-                        <video src="../img/Maria.mp4" class="videos_video" controls poster="../img/Maria.png 2x.png 2x" preload="auto">
-                            <source src="../img/Maria.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="videos_container">
-                        <video src="../img/Oriol.mp4" class="videos_video" controls poster="../img/Oriol.png 2x.png 2x" preload="auto">
-                            <source src="../img/Oriol.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="videos_container">
-                        <video src="../img/Alba.mp4" class="videos_video" controls poster="../img/Alba.png 2x.png 2x" preload="auto">
-                            <source src="../img/Alba.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="videos_container">
-                        <video src="../img/Arnau.mp4" class="videos_video" controls poster="../img/Arnau.png 2x.png 2x" preload="auto">
-                            <source src="../img/Arnau.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
+                <video src="/img/big_video.mp4" class="videos_videobig" controls controlslist="nodownload noremoteplayback noplaybackrate" preload="auto"></video>
             </section>
             <section class="sponsors">
                 <h2 class="sponsors_title">Amb la col·laboració de:</h2>
@@ -104,7 +83,7 @@
                     <a href="https://www.ajuntamentdetremp.cat/" class="sponsors_sponsor">
                         <img src="./img/ajuntament_tremp_logo.jpg" alt="Ajuntament de Tremp" class="sponsors_sponsor_logo">
                     </a>
-                    <a href="https://bonarea.com/" class="sponsors_sponsor">
+                    <a href="https://share.google/OXjpkhre3gE8bWcNF" class="sponsors_sponsor">
                         <img src="./img/logo_bonarea.png" alt="Bon Àrea Isona" class="sponsors_sponsor_logo">
                     </a>
                     <a href="https://www.lamasovera.cat/" class="sponsors_sponsor">
@@ -146,8 +125,8 @@
                 <p class="footer_dir">C/Bisbe Iglesias, 5<br>25620, Tremp</p>
             </div>
             <div class="footer_media">
-                <a href="" class="footer_link">@aeso_sat <img src="../img/instagram_logo.png" alt="@aeso_sat" class="footer_insta"></a>
-                <a href="" class="footer_link">aeso.iestremp@gmail.com</a>
+                <a href="https://www.instagram.com/aeso_sat/" class="footer_link">@aeso_sat <img src="../img/instagram_logo.png" alt="@aeso_sat" class="footer_insta"></a>
+                <a href="/content/contact/" class="footer_link">aeso.iestremp@gmail.com</a>
             </div>
             <div class="footer_others">
                 <img src="../img/aesosat_logo.png" alt="AesoSAT" class="footer_logo">

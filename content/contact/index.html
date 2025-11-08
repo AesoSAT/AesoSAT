@@ -3,6 +3,9 @@
     <head>
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
         <title>AesoSAT - Contacte</title>
     </head>
     <body>
@@ -23,33 +26,36 @@
             </nav>
         </header>
         <main>
-            <section class="contact">
+            <section class="mail">
+                <h2 class="mail_title">Disculpeu les molèsties, però la pàgina de contacte encara està en desenvolupament. Si desitjeu contactar amb nosaltres, envieu-nos un correu a <span class="mail_span">aeso.iestremp@gmail.com</span></h2>
+            </section>
+            <!-- <section class="contact">
                 <div class="contact_header">
                     <h2 class="contact_title">Informa-te'n</h3>
                     <p class="contact_text">Envia'ns un correu per a més informació i respondrem el més aviat possible!</p>
                 </div>
-                <div class="contact_container">
+                <form class="contact_container" action="mailto:isonik@iestremp.cat">
                     <div class="contact_inputs_top">
                         <div>
                             <h3 class="contact_label">Nom</h3>
-                            <input type="text" id="" class="contact_input">
+                            <input type="text" id="contact_name" class="contact_input">
                         </div>
                         <div>
                             <h3 class="contact_label">Cognoms</h3>
-                            <input type="text" id="" class="contact_input">
+                            <input type="text" id="contact_surname" class="contact_input">
                         </div>
                     </div>
                     <div>
                         <h3 class="contact_label">Correu electrònic</h3>
-                        <input type="text" id="" class="contact_input_mail">
+                        <input type="text" id="contact_email" class="contact_input_mail">
                     </div>
                     <div>
                         <h3 class="contact_label">Missatge</h3>
-                        <textarea name="" id="" class="contact_textarea"></textarea>
+                        <textarea name="" id="contact_body" class="contact_textarea"></textarea>
                     </div>
-                    <button class="contact_button">Enviar</button>
-                </div>
-            </section>
+                    <button type="submit" class="contact_button" onclick="mail()">Enviar</button>
+                </form>
+            </section> -->
         </main>
         <footer class="footer">
             <div class="footer_name">
@@ -57,8 +63,8 @@
                 <p class="footer_dir">C/Bisbe Iglesias, 5<br>25620, Tremp</p>
             </div>
             <div class="footer_media">
-                <a href="" class="footer_link">@aeso_sat <img src="/img/instagram_logo.png" alt="@aeso_sat" class="footer_insta"></a>
-                <a href="" class="footer_link">aeso.iestremp@gmail.com</a>
+                <a href="https://instagram.com/aeso_sat" class="footer_link">@aeso_sat <img src="/img/instagram_logo.png" alt="@aeso_sat" class="footer_insta"></a>
+                <a href="/content/contact/" class="footer_link">aeso.iestremp@gmail.com</a>
             </div>
             <div class="footer_others">
                 <img src="/img/aesosat_logo.png" alt="AesoSAT" class="footer_logo">

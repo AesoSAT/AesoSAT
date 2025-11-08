@@ -9,7 +9,7 @@
 .primary_img {
     height: 350px;
     width: 90%;
-    border: 1px solid #00000a;
+    object-fit: cover;
 }
 .primary_title {
     font-size: 24pt;
@@ -20,11 +20,11 @@
     text-align: justify;
 }
 .secondary {
-    height: 1100px;
+    height: 1350px;
     padding: 25px;
     display: flex;
     flex-direction: column;
-    background: #dc9812;
+    background: #ffa400;
 }
 .secondary_header_title {
     font-size: 24pt;
@@ -48,7 +48,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #b1b1b1;
+    background: #2176ae;
+    border-radius: 15px;
 }
 .secondary_mission_title {
     font-size: 20pt;
@@ -57,12 +58,13 @@
     font-size: 15pt;
     margin-top: 15px;
     text-align: justify;
+    width: 90%;
 }
 .secondary_mission_img {
     height: 100%;
     width: 90%;
-    border: 1px solid #00000a;
     margin-top: 15px;
     align-items: center;
     justify-content: center;
+    object-fit: cover;
 }

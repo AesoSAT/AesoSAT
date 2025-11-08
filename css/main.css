@@ -136,6 +136,10 @@ header nav {
 .link:not(:hover) {
     animation: link_not_hover 0.5s;
 }
+p {
+    line-height: 1.5;
+    font-weight: 500;
+}
 
 /* Animations */
 @keyframes link_hover {

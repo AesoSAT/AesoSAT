@@ -38,11 +38,11 @@
     font-size: 17pt;
 }
 .contact_input, .contact_input_mail {
+    border: 1px solid #00000a;
     font-size: 14pt;
     height: 26pt;
     width: 250px;
     padding-left: 5px;
-    border: 1px solid #00000a;
     box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, .8);
     border-radius: 5px;
     margin-top: 5px;
@@ -52,16 +52,17 @@
     outline: none;
 }
 .contact_input_mail {
+    border: 1px solid #00000a;
     width: calc(250px*2 + 25px) !important;
 }
 .contact_textarea {
+    border: 1px solid #00000a;
     height: calc(22pt*5);
     width: calc(250px*2 + 25px);
     padding: 1.5px 3.5px;
     font-size: 14pt;
     resize: none;
     box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, .8);
-    border: 1px solid #00000a;
     border-radius: 5px;
     margin-top: 5px;
 }
@@ -73,13 +74,34 @@
     height: 50px;
     font-size: 18pt;
     width: 125px;
-    border: 1px solid #00000a;
     border-radius: 5px;
     box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, .8);
     cursor: pointer;
-    background: #dc9812;
+    background: #ffa400;
     font-weight: bold;
 }
 .contact_button:hover {
     border: 1px solid transparent;
+}
+
+.mail {
+    height: 350px;
+    background: #ffa400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 0px 100px;
+    user-select: auto;
+}
+.mail_title {
+    font-weight: 500;
+}
+.mail_span {
+    color: #00006e;
+    text-decoration: underline;
+}
+.mail_title, .mail_span {
+    user-select: text;
 }

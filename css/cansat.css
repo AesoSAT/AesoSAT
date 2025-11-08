@@ -10,7 +10,7 @@
 .project_img {
     height: 350px;
     width: 90%;
-    border: 1px solid #00000a;
+    
 }
 .project_explanation {
     padding-right: 50px;
@@ -24,7 +24,6 @@
     margin-top: 15px;
     text-align: justify;
     padding-right: 50px;
-    line-height: 1.5;
 }
 .missions {
     height: 400px;
@@ -45,7 +44,6 @@
     font-size: 15pt;
     margin-top: 15px;
     text-align: justify;
-    line-height: 1.5;
 }
 .missions_container {
     width: 100%;
@@ -63,12 +61,11 @@
 .missions_part_text {
     font-size: 15pt;
     margin-top: 5px;
-    line-height: 1.5;
     text-align: justify;
 }
 .more {
     height: 75px;
-    background: #dc9812;
+    background: #ffa400;
     padding: 25px;
     display: flex;
     align-items: center;

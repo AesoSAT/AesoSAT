@@ -25,7 +25,7 @@
 .help {
     height: 85px;
     width: 165px;
-    background: #dc9812;
+    background: #ffa400;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -50,7 +50,6 @@
 .cansat_video {
     height: 350px;
     width: 90%;
-    /* border: 1px solid #00000a; */
 }
 .cansat_explanation {
     padding: 10px;
@@ -63,12 +62,11 @@
     margin-top: 15px;
     text-align: justify;
     padding-right: 50px;
-    line-height: 1.5;
 }
 .missions {
     height: 400px;
     width: 100%;
-    background: #dc9812;
+    background: #ffa400;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,11 +75,6 @@
 .missions_title {
     font-size: 24pt;
 }
-.missions_text {
-    margin-top: 10px;
-    font-size: 20pt;
-    line-height: 1.5;
-}
 .missions_zone {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -89,61 +82,38 @@
     margin-top: 25px;
 }
 .missions_zone_section {
-    padding: 0px 25px;
+    padding: 20px;
+    background: #2176ae;
+    width: 90%;
+    border-radius: 15px;
 }
 .missions_zone_title {
     font-size: 24pt;
+    color: #fffffa;
 }
 .missions_zone_text {
     margin-top: 10px;
     font-size: 15pt;
-    line-height: 1.5;
+    color: #fffffa;
 }
 .missions_zone_list {
     font-size: 15pt;
     list-style-type: circle;
     padding-left: 25px;
-    line-height: 1.5;
+    color: #fffffa;
 }
 .videos {
-    height: 700px;
+    height: 500px;
     background: #b1b1b1;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0px 50px;
+    padding: 25px;
 }
 .videos_videobig {
-    height: 350px;
-    width: 575px;
-    border: 1px solid #00000a;
-}
-.videos_videos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 30px;
-    padding: 0px 50px;
-    width: 100%;
-}
-.videos_container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.videos_video {
-    width: 95%;
-    height: 250px;
-    /* border: 1px solid #00000a; */
-}
-.videos_mini {
-    width: 95%;
-    height: 200px;
-    position: relative;
-    background: rgba(0 0 0 .2);
-    bottom: 200px;
+    height: 475px;
+    width: 825px;
 }
 .sponsors {
     height: 800px;
@@ -167,7 +137,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #00000a;
+    
 }
 .sponsors_sponsor_logo {
     max-width: 150px;
@@ -176,7 +146,6 @@
 .sponsors_sponsor_all {
     grid-column: span 3;
     grid-row: span 4;
-    border: 1px solid #00000a;
     height: 100%;
     width: 100%;
     display: flex;

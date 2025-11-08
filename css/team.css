@@ -1,5 +1,5 @@
 .team {
-    height: 1000px;
+    height: 800px;
     padding: 5px 20px 0px 20px;
     display: flex;
     align-items: center;
@@ -11,21 +11,19 @@
     text-align: center;
 }
 .team_img {
-    width: 90%;
+    width: 70%;
     height: auto;
-    /* border: 1px solid #00000a; */
     margin-top: 10px;
 }
 .team_text {
-    font-size: 18pt;
+    font-size: 15pt;
     margin-top: 10px;
     text-align: center;
-    width: 91%;
-    line-height: 1.5;
+    width: 70%;
 }
 .videos {
     height: 300px;
-    background: #dc9812;
+    background: #ffa400;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
@@ -33,7 +31,6 @@
     padding: 0px 25px;
 }
 .videos_video {
-    border: 1px solid #00000a;
     height: 225px;
     width: 92.5%;
 }
