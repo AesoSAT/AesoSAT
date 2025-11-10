@@ -33,6 +33,10 @@
     font-size: 18pt;
     margin-top: 25px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 .cansat {
     height: 400px;
